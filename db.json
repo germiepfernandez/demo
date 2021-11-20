@@ -1,14 +1,46 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "meeting": [
+        {
+            "id": 1,
+            "status": "On-going",
+            "title": "Meeting 1",
+            "description": "Integer a turpis non ligula.",
+            "date": "2021-11-20"
+        },
+        {
+            "id": 2,
+            "status": "Done",
+            "title": "Meeting 2",
+            "description": "Phasellus vitae lectus quis metus tristique tempor.",
+            "date": "2021-10-01"
+        },
+        {
+            "id": 2,
+            "status": "Done",
+            "title": "Meeting 2",
+            "description": "Sed in arcu et leo bibendum fermentum id ut magna.",
+            "date": "2021-10-02"
+        },
+        {
+            "id": 3,
+            "status": "Pending",
+            "title": "Meeting 2",
+            "description": "Maecenas sagittis nunc ut tortor consectetur, vel tincidunt mi mollis. Phasellus a arcu sit amet eros rutrum gravida.",
+            "date": "2021-11-21"
+        },
+        {
+            "id": 4,
+            "status": "Pending",
+            "title": "Meeting 2",
+            "description": "Pellentesque eleifend libero non erat faucibus, at scelerisque nunc malesuada.",
+            "date": "2021-11-22"
+        },
+        {
+            "id": 5,
+            "status": "Pending",
+            "title": "Meeting 2",
+            "description": "Vestibulum eu lectus nec urna consequat interdum mattis nec erat. Vestibulum eu lectus nec urna consequat interdum mattis nec erat.",
+            "date": "2021-12-23"
+        }
+    ]
 }
